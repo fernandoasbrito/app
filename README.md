@@ -1,4 +1,3 @@
-# app
 app_teste
 
 eProc
@@ -11,13 +10,21 @@ Vulgo: Grande Chefe
 
 // Função que ira verificar o acesso dos usuários do sistema
 // Recebe como parâmetro o login do usuário
-// Retorna True ou False como resultado da autenticação
+// Retorna False se as não tiver acesso e um array com as permissoes caso tenha acesso
 
 function AcessoUsuario(int Login){
    if(Login == LoginBanco){
-   	return true;
+   	return array Permissoes;
    }
    else{
-   	return false;
+   	return false
+   }
+}
+
+function VerificaPermissoes (){
+   $permissao = AcessoUsuario();
+
+   if($permissao){
+   	//Rotina de verificar as permissoes	
    }
 }
