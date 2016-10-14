@@ -28,8 +28,8 @@ function VerificaPermissoes (){
    	//Rotina de verificar as permissoes	
    }
 }
-if(teste){
-return true
-}else{
-return false
+
+//Criando a função data do sistema
+function Data(){
+	Manipulando as datas do sistema
 }
